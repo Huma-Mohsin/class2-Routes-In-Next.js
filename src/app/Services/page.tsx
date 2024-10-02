@@ -1,18 +1,20 @@
-export default function Home() {
+const Services = () => {
   return (
     <div>
       <h1
         style={{
-          color: "Green",
-          fontWeight: "bolder",
+          color: "brown",
           fontSize: "50px",
+          margin: "20px",
           textAlign: "center",
           textDecoration: "underline",
-          margin: "20px",
+          fontWeight: "bolder",
         }}
       >
-        Home Page
+        Services Page
       </h1>
     </div>
   );
-}
+};
+
+export default Services;
